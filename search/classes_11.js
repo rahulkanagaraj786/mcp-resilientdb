@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['schemavalidationerror_0',['SchemaValidationError',['../d2/db9/classresdb__driver_1_1exceptions_1_1SchemaValidationError.html',1,'resdb_driver.exceptions.SchemaValidationError'],['../d9/dc8/classresdb__validator_1_1exceptions_1_1SchemaValidationError.html',1,'resdb_validator.exceptions.SchemaValidationError']]],
+  ['sdktransaction_1',['SDKTransaction',['../df/dbb/structresdb_1_1SDKTransaction.html',1,'resdb']]],
+  ['searchresult_2',['SearchResult',['../dc/db9/classserver_1_1SearchResult.html',1,'server']]],
+  ['serverfactory_3',['ServerFactory',['../da/d3b/classresdb_1_1ServerFactory.html',1,'resdb']]],
+  ['serviceinterface_4',['ServiceInterface',['../da/d3b/classresdb_1_1ServiceInterface.html',1,'resdb']]],
+  ['servicenetwork_5',['ServiceNetwork',['../d4/d2d/classresdb_1_1ServiceNetwork.html',1,'resdb::ServiceNetwork'],['../d7/d96/classServiceNetwork.html',1,'ServiceNetwork']]],
+  ['serviceunavailable_6',['ServiceUnavailable',['../d4/d3c/classresdb__driver_1_1exceptions_1_1ServiceUnavailable.html',1,'resdb_driver::exceptions']]],
+  ['shiftmanager_7',['ShiftManager',['../d9/d33/classresdb_1_1ShiftManager.html',1,'resdb']]],
+  ['signatureverifier_8',['SignatureVerifier',['../d4/d30/classresdb_1_1SignatureVerifier.html',1,'resdb']]],
+  ['signatureverifierinterface_9',['SignatureVerifierInterface',['../de/d77/classresdb_1_1SignatureVerifierInterface.html',1,'resdb']]],
+  ['socket_10',['Socket',['../d0/d29/classresdb_1_1Socket.html',1,'resdb']]],
+  ['spinlockset_11',['SpinLockSet',['../d4/d35/classresdb_1_1SpinLockSet.html',1,'resdb']]],
+  ['startuperror_12',['StartupError',['../dc/dc8/classresdb__driver_1_1exceptions_1_1StartupError.html',1,'resdb_driver.exceptions.StartupError'],['../de/d19/classresdb__validator_1_1exceptions_1_1StartupError.html',1,'resdb_validator.exceptions.StartupError']]],
+  ['stats_13',['Stats',['../de/d0d/classresdb_1_1Stats.html',1,'resdb::Stats'],['../db/df7/classStats.html',1,'Stats']]],
+  ['storage_14',['Storage',['../d2/d14/classresdb_1_1Storage.html',1,'resdb']]],
+  ['systeminfo_15',['SystemInfo',['../d9/d27/classresdb_1_1SystemInfo.html',1,'resdb']]]
+];

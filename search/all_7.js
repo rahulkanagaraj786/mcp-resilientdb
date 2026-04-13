@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['7_0',['nav_order: 7',['../d8/d9e/md__2github_2workspace_2ecosystem_2ai-tools_2beacon_2content_2resilientdb_2chapters_207__checkpointing.html#autotoc_md145',1,'']]],
+  ['7_200_202023_2008_2004_1',['NexRes v1.7.0 (&lt;a href=&quot;https://github.com/resilientdb/resilientdb/releases/tag/nexres-v1.7.0&quot;&gt;2023-08-04&lt;/a&gt;)',['../d9/d7c/md__2github_2workspace_2CHANGELOG.html#autotoc_md47',1,'']]],
+  ['7_201_3a_20clone_20nexus_20repository_2',['&lt;b&gt;7.1: Clone Nexus Repository&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1595',1,'']]],
+  ['7_201_3a_20test_20complete_20flow_20graphq_20llm_3',['&lt;b&gt;7.1: Test Complete Flow (GraphQ-LLM)&lt;/b&gt;',['../d9/de8/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEST__DOCKER__SERVICES.html#autotoc_md1679',1,'']]],
+  ['7_202_3a_20install_20nexus_20dependencies_4',['&lt;b&gt;7.2: Install Nexus Dependencies&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1596',1,'']]],
+  ['7_202_3a_20test_20complete_20flow_20reslens_5',['&lt;b&gt;7.2: Test Complete Flow (ResLens)&lt;/b&gt;',['../d9/de8/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEST__DOCKER__SERVICES.html#autotoc_md1680',1,'']]],
+  ['7_203_3a_20set_20up_20postgresql_20with_20pgvector_6',['&lt;b&gt;7.3: Set Up PostgreSQL with pgvector&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1597',1,'']]],
+  ['7_204_3a_20configure_20nexus_20environment_20variables_7',['&lt;b&gt;7.4: Configure Nexus Environment Variables&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1598',1,'']]],
+  ['7_205_3a_20set_20up_20nexus_20database_20schema_8',['&lt;b&gt;7.5: Set Up Nexus Database Schema&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1599',1,'']]],
+  ['7_206_3a_20add_20graphq_20llm_20integration_20to_20nexus_20required_9',['&lt;b&gt;7.6: Add GraphQ-LLM Integration to Nexus (REQUIRED)&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1600',1,'']]],
+  ['7_207_3a_20start_20nexus_10',['&lt;b&gt;7.7: Start Nexus&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1601',1,'']]],
+  ['7_208_20_3a_11',['&lt;b&gt;Mutations (7, 8):&lt;/b&gt;',['../d7/d96/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2QUERY__TUTOR__EXAMPLES.html#autotoc_md1502',1,'']]],
+  ['7_20create_20transaction_20mutation_12',['7. Create Transaction Mutation',['../d7/d96/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2QUERY__TUTOR__EXAMPLES.html#autotoc_md1475',1,'']]],
+  ['7_20ndash_20response_13',['Section 7 &amp;ndash; Response',['../d7/df1/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2docs_2graphql-spec_2Section_017_01--_01Response.html',1,'']]],
+  ['7_20quick_20test_20checklist_14',['7. Quick Test Checklist',['../d4/d4b/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2resilientdb-mcp_2TESTING.html#autotoc_md1860',1,'']]],
+  ['7_20transaction_20with_20public_20keys_15',['&lt;b&gt;7. Transaction with Public Keys&lt;/b&gt;',['../d5/d62/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2NEXUS__TEST__INPUTS.html#autotoc_md1403',1,'']]],
+  ['7_20transaction_20with_20public_20keys_20security_20context_16',['7. &lt;b&gt;Transaction with Public Keys (Security Context)&lt;/b&gt;',['../d9/d3c/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEST__QUERIES.html#autotoc_md1711',1,'']]],
+  ['7_20update_20home_20page_3a_20src_20app_20page_20tsx_17',['7. Update Home Page: &lt;span class=&quot;tt&quot;&gt;src/app/page.tsx&lt;/span&gt;',['../d9/d37/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2NEXUS__UI__EXTENSION__GUIDE.html#autotoc_md1448',1,'']]],
+  ['7_3a_20checkpointing_20recovery_18',['Chapter 7: Checkpointing &amp;amp; Recovery',['../d8/d9e/md__2github_2workspace_2ecosystem_2ai-tools_2beacon_2content_2resilientdb_2chapters_207__checkpointing.html#autotoc_md146',1,'']]],
+  ['7_3a_20end_20to_20end_20test_20full_20communication_20chain_19',['&lt;b&gt;Step 7: End-to-End Test - Full Communication Chain&lt;/b&gt;',['../d9/de8/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEST__DOCKER__SERVICES.html#autotoc_md1678',1,'']]],
+  ['7_3a_20set_20up_20nexus_20separate_20repository_20',['&lt;b&gt;Step 7: Set Up Nexus (Separate Repository)&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1594',1,'']]],
+  ['7_3a_20start_20nexus_21',['&lt;b&gt;7.7: Start Nexus&lt;/b&gt;',['../d9/d1a/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2TEAM__SETUP.html#autotoc_md1601',1,'']]],
+  ['7_3a_20verify_20setup_22',['Step 7: Verify Setup',['../da/dda/md__2github_2workspace_2ecosystem_2ai-tools_2mcp_2graphq-llm_2SETUP__RESLENS__FORK.html#autotoc_md1546',1,'']]]
+];
