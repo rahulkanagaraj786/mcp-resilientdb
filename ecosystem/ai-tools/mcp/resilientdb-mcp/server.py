@@ -37,6 +37,15 @@ from config import Config
 from graphql_client import GraphQLClient
 from rescontract_client import ResContractClient
 
+# Sensitive fields that must never appear in error responses or monitoring data
+_SENSITIVE_FIELDS = {"signerPrivateKey", "recipientPrivateKey", "privateKey", "api_key", "apiKey"}
+
+
+def _redact_arguments(args: dict) -> dict:
+    """Redact sensitive fields (private keys, API keys) from tool arguments."""
+    return {k: ("***REDACTED***" if k in _SENSITIVE_FIELDS else v) for k, v in args.items()}
+
+
 # Initialize clients
 graphql_client = GraphQLClient()
 rescontract_client = ResContractClient()
@@ -74,20 +83,21 @@ async def analyze_transactions(transaction_ids: list[str]) -> Dict[str, Any]:
     """
     transactions = []
     errors = []
-    
-    # Fetch all transactions
-    for tx_id in transaction_ids:
+
+    # Fetch all transactions concurrently
+    async def _fetch_one(tx_id: str):
         try:
             result = await graphql_client.get_transaction(tx_id)
-            # Extract the actual transaction data from GraphQL response
-            tx_data = result.get("getTransaction", {})
-            if tx_data:
-                transactions.append(tx_data)
+            return ("ok", result.get("getTransaction", {}))
         except Exception as e:
-            errors.append({
-                "transactionId": tx_id,
-                "error": str(e)
-            })
+            return ("err", {"transactionId": tx_id, "error": str(e)})
+
+    results = await asyncio.gather(*[_fetch_one(tid) for tid in transaction_ids])
+    for status, data in results:
+        if status == "ok" and data:
+            transactions.append(data)
+        elif status == "err":
+            errors.append(data)
     
     if not transactions:
         return {
@@ -161,100 +171,32 @@ async def analyze_transactions(transaction_ids: list[str]) -> Dict[str, Any]:
     }
 
 
-def _setup_resilientdb_path() -> str:
-    """Setup path to ResilientDB resdb_driver for key generation."""
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    possible_paths = [
-        # Relative path from mcp to graphql/resdb_driver (go up 1 level to ecosystem/)
-        os.path.join(script_dir, '../graphql/resdb_driver'),
-        # Absolute path (fallback)
-        '/Users/rahul/data/workspace/kanagrah/incubator-resilientdb/ecosystem/graphql/resdb_driver',
-    ]
-    
-    for path in possible_paths:
-        abs_path = os.path.abspath(path)
-        if os.path.exists(abs_path):
-            if abs_path not in sys.path:
-                sys.path.insert(0, abs_path)
-            return abs_path
-    
-    raise ImportError(
-        f"Could not find ResilientDB resdb_driver directory. "
-        f"Tried: {', '.join([os.path.abspath(p) for p in possible_paths])}"
-    )
-
-
-def _setup_sha3_shim():
-    """Setup sha3 module shim using Python's built-in hashlib for Python 3.11+."""
-    import hashlib
-    import sys
-    from types import ModuleType
-    
-    class SHA3_256:
-        """SHA3-256 hash implementation using Python's built-in hashlib."""
-        
-        def __init__(self, data=None):
-            """Initialize SHA3-256 hash object."""
-            self._hash = hashlib.sha3_256()
-            if data is not None:
-                if isinstance(data, str):
-                    data = data.encode('utf-8')
-                self._hash.update(data)
-        
-        def update(self, data):
-            """Update the hash with additional data."""
-            if isinstance(data, str):
-                data = data.encode('utf-8')
-            self._hash.update(data)
-        
-        def hexdigest(self):
-            """Return the hexadecimal digest of the hash."""
-            return self._hash.hexdigest()
-        
-        def digest(self):
-            """Return the binary digest of the hash."""
-            return self._hash.digest()
-    
-    # Create a factory function that returns instances
-    def sha3_256(data=None):
-        """Factory function for SHA3-256 hash objects."""
-        return SHA3_256(data)
-    
-    # Create a fake sha3 module and inject it into sys.modules
-    sha3_module = ModuleType('sha3')
-    sha3_module.sha3_256 = sha3_256
-    
-    # Only inject if sha3 is not already available
-    if 'sha3' not in sys.modules:
-        sys.modules['sha3'] = sha3_module
-
-
 def generate_keypairs() -> Dict[str, str]:
     """
     Generate Ed25519 keypairs for ResilientDB transactions.
-    
+
+    Uses cryptoconditions (base58-encoded Ed25519) — the key format expected
+    by ResilientDB's GraphQL PrepareAsset mutation.
+
     Returns:
-        Dictionary with signer and recipient public/private keys
+        Dictionary with signer and recipient public/private keys.
     """
     try:
-        _setup_resilientdb_path()
-        # Setup sha3 shim before importing crypto (which imports sha3)
-        _setup_sha3_shim()
-        from crypto import generate_keypair
+        from cryptoconditions import crypto as _cc_crypto
     except ImportError as e:
         raise ImportError(
-            f"Could not import generate_keypair from ResilientDB crypto module: {e}"
-        )
-    
-    signer = generate_keypair()
-    recipient = generate_keypair()
-    
+            "Could not import cryptoconditions. Install it with: "
+            "pip install cryptoconditions"
+        ) from e
+
+    signer_priv, signer_pub = (k.decode() for k in _cc_crypto.ed25519_generate_key_pair())
+    recip_priv, recip_pub = (k.decode() for k in _cc_crypto.ed25519_generate_key_pair())
+
     return {
-        "signerPublicKey": signer.public_key,
-        "signerPrivateKey": signer.private_key,
-        "recipientPublicKey": recipient.public_key,
-        "recipientPrivateKey": recipient.private_key
+        "signerPublicKey": signer_pub,
+        "signerPrivateKey": signer_priv,
+        "recipientPublicKey": recip_pub,
+        "recipientPrivateKey": recip_priv,
     }
 
 # Create MCP server
@@ -971,7 +913,7 @@ async def handle_call_tool(name: str, arguments: dict[str, Any] | None) -> list[
             "error": type(e).__name__,
             "message": error_message,
             "tool": name,
-            "arguments": arguments
+            "arguments": _redact_arguments(arguments)
         }
         return [TextContent(
             type="text",
@@ -980,7 +922,7 @@ async def handle_call_tool(name: str, arguments: dict[str, Any] | None) -> list[
     finally:
         duration = time.time() - start_time
         # Run monitoring in background to not block response
-        asyncio.create_task(send_monitoring_data(name, arguments, result, duration))
+        asyncio.create_task(send_monitoring_data(name, _redact_arguments(arguments), result, duration))
 
 
 async def main():

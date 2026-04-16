@@ -22,43 +22,23 @@ This is a standalone utility script for manual key generation.
 For automated key generation, use the MCP server's generateKeys tool instead.
 """
 import sys
-import os
-
-# Get the directory where this script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Try to find the ResilientDB resdb_driver path
-# From ecosystem/mcp/ to ecosystem/graphql/resdb_driver
-possible_paths = [
-    # Relative path from mcp to graphql/resdb_driver (go up 1 level to ecosystem/)
-    os.path.join(script_dir, '../graphql/resdb_driver'),
-    # Absolute path (fallback)
-    '/Users/rahul/data/workspace/kanagrah/incubator-resilientdb/ecosystem/graphql/resdb_driver',
-]
-
-resilientdb_path = None
-for path in possible_paths:
-    abs_path = os.path.abspath(path)
-    if os.path.exists(abs_path):
-        sys.path.insert(0, abs_path)
-        resilientdb_path = abs_path
-        break
-
-if resilientdb_path is None:
-    print("Error: Could not find ResilientDB resdb_driver directory.")
-    print("Tried the following paths:")
-    for path in possible_paths:
-        print(f"  - {os.path.abspath(path)}")
-    print(f"\nCurrent script location: {script_dir}")
-    sys.exit(1)
+from collections import namedtuple
 
 try:
-    from crypto import generate_keypair
+    from cryptoconditions import crypto as _cc_crypto
 except ImportError:
-    print("Error: Could not import generate_keypair from ResilientDB crypto module.")
-    print(f"Found path: {resilientdb_path}")
-    print(f"Please ensure the crypto.py file exists in: {resilientdb_path}")
+    print("Error: Could not import cryptoconditions.")
+    print("Install it with: pip install cryptoconditions")
     sys.exit(1)
+
+CryptoKeypair = namedtuple("CryptoKeypair", ("private_key", "public_key"))
+
+
+def generate_keypair() -> CryptoKeypair:
+    """Generate an Ed25519 keypair (base58-encoded, ResilientDB format)."""
+    priv, pub = (k.decode() for k in _cc_crypto.ed25519_generate_key_pair())
+    return CryptoKeypair(private_key=priv, public_key=pub)
+
 
 # Generate keypairs
 signer = generate_keypair()

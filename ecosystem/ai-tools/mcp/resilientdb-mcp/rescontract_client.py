@@ -38,10 +38,10 @@ class ResContractClient:
             repo_root: Root directory of ResilientDB repository. If None, auto-detects.
         """
         if repo_root is None:
-            # Auto-detect: go up from mcp directory to incubator-resilientdb root
+            # Auto-detect: go up from ecosystem/ai-tools/mcp/resilientdb-mcp/ to repo root
             script_dir = os.path.dirname(os.path.abspath(__file__))
-            # From ecosystem/mcp/ to root (go up 2 levels: .. = ecosystem/, ../.. = root)
-            repo_root = os.path.abspath(os.path.join(script_dir, '../..'))
+            # Up 4 levels: .. = mcp/, ../.. = ai-tools/, ../../.. = ecosystem/, ../../../.. = root
+            repo_root = os.path.abspath(os.path.join(script_dir, '../../../..'))
         
         self.repo_root = repo_root
         self.rescontract_cmd = "rescontract"
