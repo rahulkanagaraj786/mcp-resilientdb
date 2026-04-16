@@ -1,8 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"db/ddb/classresdb_1_1ResDBConfig.html#a2f169bcf96c9d9aab1ba06e204658a87":[1,0,6,34,15],
-"db/ddb/classresdb_1_1ResDBConfig.html#a3669f8ea7516a477902af0e357d47b84":[0,0,22,38,10],
-"db/ddb/classresdb_1_1ResDBConfig.html#a3669f8ea7516a477902af0e357d47b84":[1,0,6,34,10],
 "db/ddb/classresdb_1_1ResDBConfig.html#a3ecbc743465c10c809b9d9e0daf272df":[0,0,22,38,21],
 "db/ddb/classresdb_1_1ResDBConfig.html#a3ecbc743465c10c809b9d9e0daf272df":[1,0,6,34,21],
 "db/ddb/classresdb_1_1ResDBConfig.html#a464cd1a715b8e103a24e17e43306c010":[0,0,22,38,9],
@@ -249,5 +246,8 @@ var NAVTREEINDEX14 =
 "dc/d12/classsdk_1_1ResDBKVClient.html#ac044a0544987a55113176a29775045c9":[0,0,30,3,1],
 "dc/d12/classsdk_1_1ResDBKVClient.html#ac044a0544987a55113176a29775045c9":[1,0,13,3,1],
 "dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp.html":[2,0,4,3,2,1,1],
-"dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[2,0,4,3,2,1,1,3]
+"dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[2,0,4,3,2,1,1,3],
+"dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp.html#a83cacaf099010766767e14ff7bf476ca":[2,0,4,3,2,1,1,1],
+"dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp.html#aae9011388f6fd7b287566f37e31660fa":[2,0,4,3,2,1,1,2],
+"dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp_source.html":[2,0,4,3,2,1,1]
 };

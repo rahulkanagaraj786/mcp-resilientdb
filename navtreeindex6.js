@@ -1,7 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0a3279973d22efc152fd87dfe4f1710def":[0,0,22,103,1],
-"d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0a32e1445895e83fb95fa7fb3876d8ff91":[0,0,22,103,4],
 "d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0a61578c8a1b468d7935d2bdf02dea3d1c":[0,0,22,103,2],
 "d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0a71ceed164ea4750776c99b47b9725dbc":[0,0,22,103,5],
 "d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0a8f60578a1667fd6eb91ee90a6e368fab":[0,0,22,103,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX6 =
 "d5/d57/classresdb_1_1contract_1_1MemoryDB.html#abef9cd0ffd55a2ef9edf54b4e543cf73":[0,0,22,3,7,10],
 "d5/d57/classresdb_1_1contract_1_1MemoryDB.html#abef9cd0ffd55a2ef9edf54b4e543cf73":[1,0,6,1,7,10],
 "d5/d57/classresdb_1_1contract_1_1MemoryDB.html#af0eb0bfb5573018d511fe66994244bfa":[0,0,22,3,7,9],
-"d5/d57/classresdb_1_1contract_1_1MemoryDB.html#af0eb0bfb5573018d511fe66994244bfa":[1,0,6,1,7,9]
+"d5/d57/classresdb_1_1contract_1_1MemoryDB.html#af0eb0bfb5573018d511fe66994244bfa":[1,0,6,1,7,9],
+"d5/d57/classresdb_1_1contract_1_1MemoryDB.html#af1fb8cea5ed91abf154ce4fdb40f2a74":[0,0,22,3,7,4],
+"d5/d57/classresdb_1_1contract_1_1MemoryDB.html#af1fb8cea5ed91abf154ce4fdb40f2a74":[1,0,6,1,7,4]
 };

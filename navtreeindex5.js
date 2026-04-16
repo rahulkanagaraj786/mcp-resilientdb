@@ -1,7 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d4/d4b/classKVServiceTransactionManager.html":[1,0,22],
-"d4/d4b/classKVServiceTransactionManager.html#a5a05645e5b4b66ebafa58ae4a0e4ad1e":[1,0,22,0],
 "d4/d4b/classKVServiceTransactionManager.html#a5e80249843db6d61e25eb84092290a88":[1,0,22,4],
 "d4/d4b/classKVServiceTransactionManager.html#a83b1f02b786ef6a8519242992dd27293":[1,0,22,5],
 "d4/d4b/classKVServiceTransactionManager.html#a8d440c824f5e7341fe7b00a5dbdd44e6":[1,0,22,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX5 =
 "d5/d10/namespaceresdb.html#a903a063ebd51c5fd151a96b7324b62f6afc68b5a2d424d9165e2f3612848a151b":[0,0,22,101,1],
 "d5/d10/namespaceresdb.html#a90d9d655454585293866274a273df0bc":[0,0,22,136],
 "d5/d10/namespaceresdb.html#a92bea99ce90c0c721d002ab634ffa2b0":[0,0,22,113],
-"d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0":[0,0,22,103]
+"d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0":[0,0,22,103],
+"d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0a3279973d22efc152fd87dfe4f1710def":[0,0,22,103,1],
+"d5/d10/namespaceresdb.html#a9365b7af8267b084d545559cc0f87cb0a32e1445895e83fb95fa7fb3876d8ff91":[0,0,22,103,4]
 };

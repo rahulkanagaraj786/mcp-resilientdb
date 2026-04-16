@@ -3,7 +3,7 @@ var searchData=
   ['rc_5fmutex_5f_0',['rc_mutex_',['../dd/d4b/classresdb_1_1Commitment.html#a89061c90981240874ae37590deaa1aa7',1,'resdb::Commitment']]],
   ['read_5fresponse_1',['read_response',['../df/d04/namespacetest.html#a420a570f1de00d7fed408314a587f433',1,'test']]],
   ['read_5ftimeouts_5f_2',['read_timeouts_',['../de/dc3/classresdb_1_1NetChannel.html#a0025e3cd899add13c103f5f8d0845178',1,'resdb::NetChannel']]],
-  ['recipient_3',['recipient',['../d3/d49/namespacegenerate__keys__utility.html#a3d07c6bf35cd15940d71155981def1e2',1,'generate_keys_utility']]],
+  ['recipient_3',['recipient',['../d3/d49/namespacegenerate__keys__utility.html#ad7c047454b2e52526d5296e573bf4358',1,'generate_keys_utility']]],
   ['reconnect_5fattempts_4',['reconnect_attempts',['../d3/d97/classresilient__python__cache_1_1cache_1_1ResilientPythonCache.html#a2c84d75ea1e89055688164155b30e3c2',1,'resilient_python_cache::cache::ResilientPythonCache']]],
   ['reconnect_5finterval_5',['reconnect_interval',['../d3/d97/classresilient__python__cache_1_1cache_1_1ResilientPythonCache.html#ae3f5e528e159bf5f6f50d377a37d8127',1,'resilient_python_cache.cache.ResilientPythonCache.reconnect_interval'],['../d7/d06/classresilient__python__cache_1_1config_1_1ResilientDBConfig.html#a25efbf7ead92790a0dc11a0111cc68fc',1,'resilient_python_cache.config.ResilientDBConfig.reconnect_interval']]],
   ['recovery_5f_6',['recovery_',['../d0/ded/classresdb_1_1ConsensusManagerPBFT.html#ab6ee9ab06a5e7f63b9173fc7edcf6c88',1,'resdb::ConsensusManagerPBFT::recovery_'],['../de/d6d/classresdb_1_1Query.html#a8f16a0a07872365e1dabea9db45fd624',1,'resdb::Query::recovery_'],['../d3/d20/classConsensusManagerPBFT.html#ab6ee9ab06a5e7f63b9173fc7edcf6c88',1,'ConsensusManagerPBFT::recovery_']]],
@@ -32,11 +32,10 @@ var searchData=
   ['reset_5fexecute_5ffunc_5f_29',['reset_execute_func_',['../dc/db0/classresdb_1_1CheckPointManager.html#a43826cbac95cb09ffba5acc6594fbb12',1,'resdb::CheckPointManager']]],
   ['resilient_5fdb_5fconfig_30',['resilient_db_config',['../d3/d97/classresilient__python__cache_1_1cache_1_1ResilientPythonCache.html#ac8834f4988972902dc971d3fd3167bb0',1,'resilient_python_cache::cache::ResilientPythonCache']]],
   ['resilientdb_5fknowledge_31',['resilientdb_knowledge',['../d9/db1/namespaceserver.html#aa22d432798f42fab7b062fe6f3f0c5e4',1,'server']]],
-  ['resilientdb_5fpath_32',['resilientdb_path',['../d3/d49/namespacegenerate__keys__utility.html#a7adf5467608a6a8c35ef7c38ee82e4ce',1,'generate_keys_utility']]],
-  ['resp_5fqueue_5f_33',['resp_queue_',['../d4/d2d/classresdb_1_1GeoGlobalExecutor.html#a9d7438a5a84bd0ac19c8485ec9212a3e',1,'resdb::GeoGlobalExecutor::resp_queue_'],['../db/deb/classresdb_1_1common_1_1Consensus.html#a1ad6db56c8e23b912fefc9a03fd33513',1,'resdb::common::Consensus::resp_queue_']]],
-  ['response_34',['response',['../d9/d80/namespaceendpoint__test.html#aedc86563f4e38b871b121f81851b6b7d',1,'endpoint_test']]],
-  ['response1_35',['response1',['../d0/d72/namespaceutils_1_1call__llm.html#a16cbb54e480853fb4b4e04472b9e7c70',1,'utils::call_llm']]],
-  ['response_5fmanager_5f_36',['response_manager_',['../db/deb/classresdb_1_1common_1_1Consensus.html#aa3750796132d59828b500aeb58fa578f',1,'resdb::common::Consensus::response_manager_'],['../d0/ded/classresdb_1_1ConsensusManagerPBFT.html#a7c88bb983f828c2c69c97ee84b791fa2',1,'resdb::ConsensusManagerPBFT::response_manager_'],['../d3/d20/classConsensusManagerPBFT.html#a7c88bb983f828c2c69c97ee84b791fa2',1,'ConsensusManagerPBFT::response_manager_']]],
-  ['result_37',['result',['../da/d34/namespaceutils_1_1crawl__github__files.html#abaeadc4a603ce2c7230819303321ec90',1,'utils::crawl_github_files']]],
-  ['ret_38',['ret',['../d6/d3b/namespacevalidator.html#a63bf06ac2486e4eb73b79ae5b41c02c8',1,'validator']]]
+  ['resp_5fqueue_5f_32',['resp_queue_',['../d4/d2d/classresdb_1_1GeoGlobalExecutor.html#a9d7438a5a84bd0ac19c8485ec9212a3e',1,'resdb::GeoGlobalExecutor::resp_queue_'],['../db/deb/classresdb_1_1common_1_1Consensus.html#a1ad6db56c8e23b912fefc9a03fd33513',1,'resdb::common::Consensus::resp_queue_']]],
+  ['response_33',['response',['../d9/d80/namespaceendpoint__test.html#aedc86563f4e38b871b121f81851b6b7d',1,'endpoint_test']]],
+  ['response1_34',['response1',['../d0/d72/namespaceutils_1_1call__llm.html#a16cbb54e480853fb4b4e04472b9e7c70',1,'utils::call_llm']]],
+  ['response_5fmanager_5f_35',['response_manager_',['../db/deb/classresdb_1_1common_1_1Consensus.html#aa3750796132d59828b500aeb58fa578f',1,'resdb::common::Consensus::response_manager_'],['../d0/ded/classresdb_1_1ConsensusManagerPBFT.html#a7c88bb983f828c2c69c97ee84b791fa2',1,'resdb::ConsensusManagerPBFT::response_manager_'],['../d3/d20/classConsensusManagerPBFT.html#a7c88bb983f828c2c69c97ee84b791fa2',1,'ConsensusManagerPBFT::response_manager_']]],
+  ['result_36',['result',['../da/d34/namespaceutils_1_1crawl__github__files.html#abaeadc4a603ce2c7230819303321ec90',1,'utils::crawl_github_files']]],
+  ['ret_37',['ret',['../d6/d3b/namespacevalidator.html#a63bf06ac2486e4eb73b79ae5b41c02c8',1,'validator']]]
 ];

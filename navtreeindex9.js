@@ -1,7 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"d7/d95/classresdb_1_1TransactionCollector.html#a5204b67bb1f3c45644b998f88f6c9934":[1,0,6,61,10],
-"d7/d95/classresdb_1_1TransactionCollector.html#a656230a242f692f8dc71297b8ef971f3":[0,0,22,65,6],
 "d7/d95/classresdb_1_1TransactionCollector.html#a656230a242f692f8dc71297b8ef971f3":[1,0,6,61,6],
 "d7/d95/classresdb_1_1TransactionCollector.html#a74dcc74c3875150a3b17de391a5c6b17":[0,0,22,65,11],
 "d7/d95/classresdb_1_1TransactionCollector.html#a74dcc74c3875150a3b17de391a5c6b17":[1,0,6,61,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX9 =
 "d8/d65/classresdb_1_1ResDBTestClient.html#acca1a312ddacd89ce7109b33e41a04f2":[1,0,6,89,1],
 "d8/d65/classresdb_1_1ResDBTestClient.html#ad203055958d3e64d936b75f4e7b6e2b3":[0,0,22,93,0],
 "d8/d65/classresdb_1_1ResDBTestClient.html#ad203055958d3e64d936b75f4e7b6e2b3":[1,0,6,89,0],
-"d8/d6b/storage_8h.html":[2,0,2,1,7]
+"d8/d6b/storage_8h.html":[2,0,2,1,7],
+"d8/d6b/storage_8h_source.html":[2,0,2,1,7],
+"d8/d80/service_2tools_2kv_2api__tools_2kv__service__tools_8cpp.html":[2,0,11,3,1,0,2]
 };

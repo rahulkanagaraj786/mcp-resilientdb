@@ -1,8 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"de/dc3/classresdb_1_1NetChannel.html#ad606b4dcd21c61e0f16213338aff5cfe":[0,0,22,28,11],
-"de/dc3/classresdb_1_1NetChannel.html#ad606b4dcd21c61e0f16213338aff5cfe":[1,0,6,24,11],
-"de/dc3/classresdb_1_1NetChannel.html#add96cf58dfbe2da16ff87db21d25e1ca":[0,0,22,28,10],
 "de/dc3/classresdb_1_1NetChannel.html#add96cf58dfbe2da16ff87db21d25e1ca":[1,0,6,24,10],
 "de/dc3/classresdb_1_1NetChannel.html#aea266111b7b17de8da3c80de6fb38dd8":[0,0,22,28,5],
 "de/dc3/classresdb_1_1NetChannel.html#aea266111b7b17de8da3c80de6fb38dd8":[1,0,6,24,5],
@@ -249,5 +246,8 @@ var NAVTREEINDEX19 =
 "df/dbe/classgraphql__client_1_1GraphQLClient.html#a515777da83a4ebe045b22b30b4704318":[0,0,12,0,1],
 "df/dbe/classgraphql__client_1_1GraphQLClient.html#a515777da83a4ebe045b22b30b4704318":[1,0,2,0,1],
 "df/dbe/classgraphql__client_1_1GraphQLClient.html#a51bfbb3347f71203857e3e1258a60879":[0,0,12,0,10],
-"df/dbe/classgraphql__client_1_1GraphQLClient.html#a51bfbb3347f71203857e3e1258a60879":[1,0,2,0,10]
+"df/dbe/classgraphql__client_1_1GraphQLClient.html#a51bfbb3347f71203857e3e1258a60879":[1,0,2,0,10],
+"df/dbe/classgraphql__client_1_1GraphQLClient.html#a5b217a1a4777aea5d5b9abdfaa857224":[0,0,12,0,12],
+"df/dbe/classgraphql__client_1_1GraphQLClient.html#a5b217a1a4777aea5d5b9abdfaa857224":[1,0,2,0,12],
+"df/dbe/classgraphql__client_1_1GraphQLClient.html#a9662e88f4d4b3222570cc7b679cd630e":[0,0,12,0,2]
 };

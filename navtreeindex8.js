@@ -1,7 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"d6/d84/namespaceutils.html":[0,0,40],
-"d6/da0/classresdb_1_1DuplicateManager.html":[0,0,22,42],
 "d6/da0/classresdb_1_1DuplicateManager.html":[1,0,6,38],
 "d6/da0/classresdb_1_1DuplicateManager.html#a0c1c2af80dcfa6a648bfe526f860f165":[0,0,22,42,4],
 "d6/da0/classresdb_1_1DuplicateManager.html#a0c1c2af80dcfa6a648bfe526f860f165":[1,0,6,38,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX8 =
 "d7/d8a/graphql_2resdb__driver_2____init_____8py_source.html":[2,0,4,3,1,0],
 "d7/d95/classresdb_1_1TransactionCollector.html":[0,0,22,65],
 "d7/d95/classresdb_1_1TransactionCollector.html":[1,0,6,61],
-"d7/d95/classresdb_1_1TransactionCollector.html#a5204b67bb1f3c45644b998f88f6c9934":[0,0,22,65,10]
+"d7/d95/classresdb_1_1TransactionCollector.html#a5204b67bb1f3c45644b998f88f6c9934":[0,0,22,65,10],
+"d7/d95/classresdb_1_1TransactionCollector.html#a5204b67bb1f3c45644b998f88f6c9934":[1,0,6,61,10],
+"d7/d95/classresdb_1_1TransactionCollector.html#a656230a242f692f8dc71297b8ef971f3":[0,0,22,65,6]
 };

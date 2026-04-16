@@ -44,12 +44,10 @@ var namespaces_dup =
       [ "create_tutorial_flow", "d9/de2/namespaceflow.html#ab7059c6fbc8a2c59d6990ee02f4676f5", null ]
     ] ],
     [ "generate_keys_utility", "d3/d49/namespacegenerate__keys__utility.html", [
-      [ "abs_path", "d3/d49/namespacegenerate__keys__utility.html#a0fdf64fc8a78a13499a699948fc1219c", null ],
-      [ "possible_paths", "d3/d49/namespacegenerate__keys__utility.html#a1d7bd4f69ea63dd89ac0a957b2edb313", null ],
-      [ "recipient", "d3/d49/namespacegenerate__keys__utility.html#a3d07c6bf35cd15940d71155981def1e2", null ],
-      [ "resilientdb_path", "d3/d49/namespacegenerate__keys__utility.html#a7adf5467608a6a8c35ef7c38ee82e4ce", null ],
-      [ "script_dir", "d3/d49/namespacegenerate__keys__utility.html#a8c25650cdaaf6ce31d7298c7f33ce281", null ],
-      [ "signer", "d3/d49/namespacegenerate__keys__utility.html#a0ccb017e91f8ef4182de9d21e8a83855", null ]
+      [ "generate_keypair", "d3/d49/namespacegenerate__keys__utility.html#a719cc6258b39b1d90a27b2ea0395c756", null ],
+      [ "CryptoKeypair", "d3/d49/namespacegenerate__keys__utility.html#ac9f62af5a47281ab7d590031af069959", null ],
+      [ "recipient", "d3/d49/namespacegenerate__keys__utility.html#ad7c047454b2e52526d5296e573bf4358", null ],
+      [ "signer", "d3/d49/namespacegenerate__keys__utility.html#a96a406885123b79824e67c4c8bda4836", null ]
     ] ],
     [ "generate_mulregion_config", "df/d44/namespacegenerate__mulregion__config.html", [
       [ "GenerateJsonConfig", "df/d44/namespacegenerate__mulregion__config.html#aecd97f51038d5f4f2d9763bad807efcb", null ],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"da/d19/classresdb_1_1ConsensusManager.html#afddbd1de6fd7a2a629e593e879fc1b5e":[0,0,22,81,15],
-"da/d19/classresdb_1_1ConsensusManager.html#afddbd1de6fd7a2a629e593e879fc1b5e":[1,0,6,77,15],
-"da/d19/classresdb_1_1ConsensusManager.html#aff784e311e586b5399d47c822bb34b14":[0,0,22,81,22],
 "da/d19/classresdb_1_1ConsensusManager.html#aff784e311e586b5399d47c822bb34b14":[1,0,6,77,22],
 "da/d1b/namespaceresdb_1_1utils.html":[0,0,22,1],
 "da/d1b/namespaceresdb_1_1utils.html#a0fb26398b123f4828c8a3336ed4db061":[0,0,22,1,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX12 =
 "da/dbe/common_2framework_2transaction__utils_8h_source.html":[2,0,9,2,2,0,1,7],
 "da/dc6/classserver_1_1RepoInsights.html":[0,0,31,3],
 "da/dc6/classserver_1_1RepoInsights.html":[1,0,14,3],
-"da/dcc/namespaceresdb__validator_1_1utils.html":[0,0,26,6]
+"da/dcc/namespaceresdb__validator_1_1utils.html":[0,0,26,6],
+"da/dcc/namespaceresdb__validator_1_1utils.html#a27ce867169fa07751a1b7860ec10b81b":[0,0,26,6,4],
+"da/dcc/namespaceresdb__validator_1_1utils.html#a2ecf87921846e61a2a883d02e3395f24":[0,0,26,6,3],
+"da/dcc/namespaceresdb__validator_1_1utils.html#a44faf2df2eef8b08063df3eb1f342f4f":[0,0,26,6,7]
 };

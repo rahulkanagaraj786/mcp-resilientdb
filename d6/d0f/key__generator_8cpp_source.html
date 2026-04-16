@@ -181,14 +181,14 @@ $(function(){initNavTree('d6/d0f/key__generator_8cpp_source.html','../../',''); 
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">// Initialize the signer and the keys for ED25519</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>SecretKey ED25519GenerateKeys() {</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  CryptoPP::ed25519::Signer <a class="code hl_variable" href="../../d3/d49/namespacegenerate__keys__utility.html#a0ccb017e91f8ef4182de9d21e8a83855">signer</a>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  CryptoPP::ed25519::Signer <a class="code hl_variable" href="../../d3/d49/namespacegenerate__keys__utility.html#a96a406885123b79824e67c4c8bda4836">signer</a>;</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  SecretKey key_pair;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  CryptoPP::AutoSeededRandomPool prng;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="comment">// Initilize signer;</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <a class="code hl_variable" href="../../d3/d49/namespacegenerate__keys__utility.html#a0ccb017e91f8ef4182de9d21e8a83855">signer</a>.AccessPrivateKey().GenerateRandom(prng);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <a class="code hl_variable" href="../../d3/d49/namespacegenerate__keys__utility.html#a96a406885123b79824e67c4c8bda4836">signer</a>.AccessPrivateKey().GenerateRandom(prng);</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">const</span> CryptoPP::ed25519PrivateKey &amp;private_key =</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>      <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span>CryptoPP::ed25519PrivateKey &amp;<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d3/d49/namespacegenerate__keys__utility.html#a0ccb017e91f8ef4182de9d21e8a83855">signer</a>.GetPrivateKey());</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>      <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span>CryptoPP::ed25519PrivateKey &amp;<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d3/d49/namespacegenerate__keys__utility.html#a96a406885123b79824e67c4c8bda4836">signer</a>.GetPrivateKey());</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  key_pair.mutable_private_key()-&gt;assign(</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>      (<span class="keywordtype">char</span> *)private_key.GetPrivateKeyBytePtr(),</div>
@@ -273,7 +273,7 @@ $(function(){initNavTree('d6/d0f/key__generator_8cpp_source.html','../../',''); 
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>}  <span class="comment">// namespace resdb</span></div>
 <div class="ttc" id="aclassresdb_1_1KeyGenerator_html_a96617579aca3cf93f71061c7e200f3eb"><div class="ttname"><a href="../../d5/d5c/classresdb_1_1KeyGenerator.html#a96617579aca3cf93f71061c7e200f3eb">resdb::KeyGenerator::GeneratorKeys</a></div><div class="ttdeci">static SecretKey GeneratorKeys(SignatureInfo::HashType type)</div><div class="ttdef"><b>Definition</b> <a href="#l00131">key_generator.cpp:131</a></div></div>
 <div class="ttc" id="akey__generator_8h_html"><div class="ttname"><a href="../../d4/d51/key__generator_8h.html">key_generator.h</a></div></div>
-<div class="ttc" id="anamespacegenerate__keys__utility_html_a0ccb017e91f8ef4182de9d21e8a83855"><div class="ttname"><a href="../../d3/d49/namespacegenerate__keys__utility.html#a0ccb017e91f8ef4182de9d21e8a83855">generate_keys_utility.signer</a></div><div class="ttdeci">signer</div><div class="ttdef"><b>Definition</b> <a href="../../d5/db2/generate__keys__utility_8py_source.html#l00064">generate_keys_utility.py:64</a></div></div>
+<div class="ttc" id="anamespacegenerate__keys__utility_html_a96a406885123b79824e67c4c8bda4836"><div class="ttname"><a href="../../d3/d49/namespacegenerate__keys__utility.html#a96a406885123b79824e67c4c8bda4836">generate_keys_utility.signer</a></div><div class="ttdeci">CryptoKeypair signer</div><div class="ttdef"><b>Definition</b> <a href="../../d5/db2/generate__keys__utility_8py_source.html#l00044">generate_keys_utility.py:44</a></div></div>
 <div class="ttc" id="anamespaceresdb_html"><div class="ttname"><a href="../../d5/d10/namespaceresdb.html">resdb</a></div><div class="ttdef"><b>Definition</b> <a href="../../d4/d85/chain__state_8cpp_source.html#l00024">chain_state.cpp:24</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

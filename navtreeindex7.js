@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"d5/d57/classresdb_1_1contract_1_1MemoryDB.html#af1fb8cea5ed91abf154ce4fdb40f2a74":[0,0,22,3,7,4],
-"d5/d57/classresdb_1_1contract_1_1MemoryDB.html#af1fb8cea5ed91abf154ce4fdb40f2a74":[1,0,6,1,7,4],
 "d5/d57/classresdb_1_1contract_1_1MemoryDB.html#afe32dd32a35027fc80a91e4c7728952a":[0,0,22,3,7,8],
 "d5/d57/classresdb_1_1contract_1_1MemoryDB.html#afe32dd32a35027fc80a91e4c7728952a":[1,0,6,1,7,8],
 "d5/d5c/classresdb_1_1KeyGenerator.html":[0,0,22,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "d6/d7d/classresdb_1_1contract_1_1ContractManager.html#ab8d26929977fd86e2b1a3d008fd5987c":[1,0,6,1,2,2],
 "d6/d7f/namespaceconfig.html":[0,0,4],
 "d6/d84/lock__free__queue__test_8cpp.html":[2,0,9,0,2,4],
-"d6/d84/lock__free__queue__test_8cpp_source.html":[2,0,9,0,2,4]
+"d6/d84/lock__free__queue__test_8cpp_source.html":[2,0,9,0,2,4],
+"d6/d84/namespaceutils.html":[0,0,40],
+"d6/da0/classresdb_1_1DuplicateManager.html":[0,0,22,42]
 };

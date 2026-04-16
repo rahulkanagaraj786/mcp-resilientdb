@@ -1,8 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp.html#a83cacaf099010766767e14ff7bf476ca":[2,0,4,3,2,1,1,1],
-"dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp.html#aae9011388f6fd7b287566f37e31660fa":[2,0,4,3,2,1,1,2],
-"dc/d12/ecosystem_2graphql_2service_2kv__service_2kv__service__tools_8cpp_source.html":[2,0,4,3,2,1,1],
 "dc/d16/namespaceresdb__driver_1_1pool.html":[0,0,23,6],
 "dc/d1e/classresdb__validator_1_1exceptions_1_1ConfigurationError.html":[0,0,26,1,1],
 "dc/d1e/classresdb__validator_1_1exceptions_1_1ConfigurationError.html":[1,0,10,0,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX15 =
 "dc/db0/classresdb_1_1CheckPointManager.html#ab83898cbc4b5f881ad04c96edb936d06":[1,0,6,47,61],
 "dc/db0/classresdb_1_1CheckPointManager.html#abc1e481213c637249ec3df6192b03514":[0,0,22,51,53],
 "dc/db0/classresdb_1_1CheckPointManager.html#abc1e481213c637249ec3df6192b03514":[1,0,6,47,53],
-"dc/db0/classresdb_1_1CheckPointManager.html#ac0231ddee919b4ececa0c94e53d28a03":[0,0,22,51,17]
+"dc/db0/classresdb_1_1CheckPointManager.html#ac0231ddee919b4ececa0c94e53d28a03":[0,0,22,51,17],
+"dc/db0/classresdb_1_1CheckPointManager.html#ac0231ddee919b4ececa0c94e53d28a03":[1,0,6,47,17],
+"dc/db0/classresdb_1_1CheckPointManager.html#ac1cd84b394edb964d2419709af294488":[0,0,22,51,63],
+"dc/db0/classresdb_1_1CheckPointManager.html#ac1cd84b394edb964d2419709af294488":[1,0,6,47,63]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"d3/d97/classresilient__python__cache_1_1cache_1_1ResilientPythonCache.html#a2b0f57c15f255fc5ba00bb4be53adcfd":[0,0,27,0,0,9],
-"d3/d97/classresilient__python__cache_1_1cache_1_1ResilientPythonCache.html#a2b0f57c15f255fc5ba00bb4be53adcfd":[1,0,11,0,0,9],
 "d3/d97/classresilient__python__cache_1_1cache_1_1ResilientPythonCache.html#a2c84d75ea1e89055688164155b30e3c2":[0,0,27,0,0,20],
 "d3/d97/classresilient__python__cache_1_1cache_1_1ResilientPythonCache.html#a2c84d75ea1e89055688164155b30e3c2":[1,0,11,0,0,20],
 "d3/d97/classresilient__python__cache_1_1cache_1_1ResilientPythonCache.html#a3e162ead11af7a3caa7a9846bafe3673":[0,0,27,0,0,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "d4/d3e/namespaceknowledge__graph__builder.html#af7c560079bb468fafc7c2bb655e505eb":[0,0,15,1],
 "d4/d47/namespaceresdb_1_1testing.html":[0,0,22,2],
 "d4/d47/namespaceresdb_1_1testing.html#aa17aa374848a8922ab475aac71f90945":[0,0,22,2,1],
-"d4/d47/namespaceresdb_1_1testing.html#ad9c8f1de731bb888763780213a8a2c36":[0,0,22,2,0]
+"d4/d47/namespaceresdb_1_1testing.html#ad9c8f1de731bb888763780213a8a2c36":[0,0,22,2,0],
+"d4/d4b/classKVServiceTransactionManager.html":[1,0,22],
+"d4/d4b/classKVServiceTransactionManager.html#a5a05645e5b4b66ebafa58ae4a0e4ad1e":[1,0,22,0]
 };

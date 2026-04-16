@@ -114,120 +114,87 @@ $(function(){initNavTree('d3/d49/namespacegenerate__keys__utility.html','../../'
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a719cc6258b39b1d90a27b2ea0395c756" id="r_a719cc6258b39b1d90a27b2ea0395c756"><td class="memItemLeft"><a class="el" href="#ac9f62af5a47281ab7d590031af069959">CryptoKeypair</a>&#160;</td><td class="memItemRight"><a class="el" href="#a719cc6258b39b1d90a27b2ea0395c756">generate_keypair</a> ()</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8c25650cdaaf6ce31d7298c7f33ce281" id="r_a8c25650cdaaf6ce31d7298c7f33ce281"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8c25650cdaaf6ce31d7298c7f33ce281">script_dir</a> = os.path.dirname(os.path.abspath(__file__))</td></tr>
-<tr class="memitem:a1d7bd4f69ea63dd89ac0a957b2edb313" id="r_a1d7bd4f69ea63dd89ac0a957b2edb313"><td class="memItemLeft">list&#160;</td><td class="memItemRight"><a class="el" href="#a1d7bd4f69ea63dd89ac0a957b2edb313">possible_paths</a></td></tr>
-<tr class="memitem:a7adf5467608a6a8c35ef7c38ee82e4ce" id="r_a7adf5467608a6a8c35ef7c38ee82e4ce"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7adf5467608a6a8c35ef7c38ee82e4ce">resilientdb_path</a> = None</td></tr>
-<tr class="memitem:a0fdf64fc8a78a13499a699948fc1219c" id="r_a0fdf64fc8a78a13499a699948fc1219c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a0fdf64fc8a78a13499a699948fc1219c">abs_path</a> = os.path.abspath(path)</td></tr>
-<tr class="memitem:a0ccb017e91f8ef4182de9d21e8a83855" id="r_a0ccb017e91f8ef4182de9d21e8a83855"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a0ccb017e91f8ef4182de9d21e8a83855">signer</a> = generate_keypair()</td></tr>
-<tr class="memitem:a3d07c6bf35cd15940d71155981def1e2" id="r_a3d07c6bf35cd15940d71155981def1e2"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3d07c6bf35cd15940d71155981def1e2">recipient</a> = generate_keypair()</td></tr>
+<tr class="memitem:ac9f62af5a47281ab7d590031af069959" id="r_ac9f62af5a47281ab7d590031af069959"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac9f62af5a47281ab7d590031af069959">CryptoKeypair</a> = namedtuple(&quot;CryptoKeypair&quot;, (&quot;private_key&quot;, &quot;public_key&quot;))</td></tr>
+<tr class="memitem:a96a406885123b79824e67c4c8bda4836" id="r_a96a406885123b79824e67c4c8bda4836"><td class="memItemLeft"><a class="el" href="#ac9f62af5a47281ab7d590031af069959">CryptoKeypair</a>&#160;</td><td class="memItemRight"><a class="el" href="#a96a406885123b79824e67c4c8bda4836">signer</a> = <a class="el" href="#a719cc6258b39b1d90a27b2ea0395c756">generate_keypair</a>()</td></tr>
+<tr class="memitem:ad7c047454b2e52526d5296e573bf4358" id="r_ad7c047454b2e52526d5296e573bf4358"><td class="memItemLeft"><a class="el" href="#ac9f62af5a47281ab7d590031af069959">CryptoKeypair</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad7c047454b2e52526d5296e573bf4358">recipient</a> = <a class="el" href="#a719cc6258b39b1d90a27b2ea0395c756">generate_keypair</a>()</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Utility script to generate Ed25519 keypairs for ResilientDB.
 
 This is a standalone utility script for manual key generation.
 For automated key generation, use the MCP server's generateKeys tool instead.
-</pre> </div><a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a0fdf64fc8a78a13499a699948fc1219c" name="a0fdf64fc8a78a13499a699948fc1219c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fdf64fc8a78a13499a699948fc1219c">&#9670;&#160;</a></span>abs_path</h2>
+</pre> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a719cc6258b39b1d90a27b2ea0395c756" name="a719cc6258b39b1d90a27b2ea0395c756"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719cc6258b39b1d90a27b2ea0395c756">&#9670;&#160;</a></span>generate_keypair()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">generate_keys_utility.abs_path = os.path.abspath(path)</td>
+          <td class="memname"> <a class="el" href="#ac9f62af5a47281ab7d590031af069959">CryptoKeypair</a> generate_keys_utility.generate_keypair </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00041">41</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
+<pre class="fragment">Generate an Ed25519 keypair (base58-encoded, ResilientDB format).</pre> 
+<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00037">37</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
 
 </div>
 </div>
-<a id="a1d7bd4f69ea63dd89ac0a957b2edb313" name="a1d7bd4f69ea63dd89ac0a957b2edb313"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d7bd4f69ea63dd89ac0a957b2edb313">&#9670;&#160;</a></span>possible_paths</h2>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="ac9f62af5a47281ab7d590031af069959" name="ac9f62af5a47281ab7d590031af069959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9f62af5a47281ab7d590031af069959">&#9670;&#160;</a></span>CryptoKeypair</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">list generate_keys_utility.possible_paths</td>
+          <td class="memname">generate_keys_utility.CryptoKeypair = namedtuple(&quot;CryptoKeypair&quot;, (&quot;private_key&quot;, &quot;public_key&quot;))</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"><span class="lineno">    1</span>=  [</div>
-<div class="line"><span class="lineno">    2</span>    <span class="comment"># Relative path from mcp to graphql/resdb_driver (go up 1 level to ecosystem/)</span></div>
-<div class="line"><span class="lineno">    3</span>    os.path.join(script_dir, <span class="stringliteral">&#39;../graphql/resdb_driver&#39;</span>),</div>
-<div class="line"><span class="lineno">    4</span>    <span class="comment"># Absolute path (fallback)</span></div>
-<div class="line"><span class="lineno">    5</span>    <span class="stringliteral">&#39;/Users/rahul/data/workspace/kanagrah/incubator-resilientdb/ecosystem/graphql/resdb_driver&#39;</span>,</div>
-<div class="line"><span class="lineno">    6</span>]</div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00032">32</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00034">34</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
 
 </div>
 </div>
-<a id="a3d07c6bf35cd15940d71155981def1e2" name="a3d07c6bf35cd15940d71155981def1e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d07c6bf35cd15940d71155981def1e2">&#9670;&#160;</a></span>recipient</h2>
+<a id="ad7c047454b2e52526d5296e573bf4358" name="ad7c047454b2e52526d5296e573bf4358"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c047454b2e52526d5296e573bf4358">&#9670;&#160;</a></span>recipient</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">generate_keys_utility.recipient = generate_keypair()</td>
+          <td class="memname"><a class="el" href="#ac9f62af5a47281ab7d590031af069959">CryptoKeypair</a> generate_keys_utility.recipient = <a class="el" href="#a719cc6258b39b1d90a27b2ea0395c756">generate_keypair</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00065">65</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00045">45</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
 
 </div>
 </div>
-<a id="a7adf5467608a6a8c35ef7c38ee82e4ce" name="a7adf5467608a6a8c35ef7c38ee82e4ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7adf5467608a6a8c35ef7c38ee82e4ce">&#9670;&#160;</a></span>resilientdb_path</h2>
+<a id="a96a406885123b79824e67c4c8bda4836" name="a96a406885123b79824e67c4c8bda4836"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a406885123b79824e67c4c8bda4836">&#9670;&#160;</a></span>signer</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">generate_keys_utility.resilientdb_path = None</td>
+          <td class="memname"><a class="el" href="#ac9f62af5a47281ab7d590031af069959">CryptoKeypair</a> generate_keys_utility.signer = <a class="el" href="#a719cc6258b39b1d90a27b2ea0395c756">generate_keypair</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00039">39</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
-
-</div>
-</div>
-<a id="a8c25650cdaaf6ce31d7298c7f33ce281" name="a8c25650cdaaf6ce31d7298c7f33ce281"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c25650cdaaf6ce31d7298c7f33ce281">&#9670;&#160;</a></span>script_dir</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">generate_keys_utility.script_dir = os.path.dirname(os.path.abspath(__file__))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00028">28</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
-
-</div>
-</div>
-<a id="a0ccb017e91f8ef4182de9d21e8a83855" name="a0ccb017e91f8ef4182de9d21e8a83855"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ccb017e91f8ef4182de9d21e8a83855">&#9670;&#160;</a></span>signer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">generate_keys_utility.signer = generate_keypair()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00064">64</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html#l00044">44</a> of file <a class="el" href="../../d5/db2/generate__keys__utility_8py_source.html">generate_keys_utility.py</a>.</p>
 
 </div>
 </div>

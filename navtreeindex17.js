@@ -1,8 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"dd/d9d/pistache__example_8cpp.html":[2,0,4,3,2,0,0,1],
-"dd/d9d/pistache__example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[2,0,4,3,2,0,0,1,1],
-"dd/d9d/pistache__example_8cpp_source.html":[2,0,4,3,2,0,0,1],
 "dd/da8/namespaceadd__license__headers.html":[0,0,0],
 "dd/da8/namespaceadd__license__headers.html#a12c52005fd17fdbdf062ceda26e0e78a":[0,0,0,1],
 "dd/da8/namespaceadd__license__headers.html#a3fa65a16b4049a0018fbf3d1f1154a9b":[0,0,0,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX17 =
 "de/d3b/namespacetest__driver.html#adab5d68503758f792efab76e837f7d5c":[0,0,34,7],
 "de/d3b/namespacetest__driver.html#add42628f1f4dc106fb4255360b454edc":[0,0,34,3],
 "de/d3b/namespacetest__driver.html#ae7299da90ca290746cf92ad5d6ad2567":[0,0,34,11],
-"de/d43/classresdb__driver_1_1exceptions_1_1ResDBError.html":[0,0,23,4,8]
+"de/d43/classresdb__driver_1_1exceptions_1_1ResDBError.html":[0,0,23,4,8],
+"de/d43/classresdb__driver_1_1exceptions_1_1ResDBError.html":[1,0,7,2,8],
+"de/d46/classresdb_1_1BlockManager.html":[0,0,22,69],
+"de/d46/classresdb_1_1BlockManager.html":[1,0,6,65]
 };
